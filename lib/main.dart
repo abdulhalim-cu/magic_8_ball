@@ -43,6 +43,8 @@ class _MagicBallPageState extends State<MagicBallPage> {
       child: Padding(
         padding: EdgeInsets.all(20.0),
         child: FlatButton(
+          splashColor: Colors.transparent,
+          highlightColor: Colors.transparent,
           onPressed: () => changeBall(),
           child: Image.asset('images/ball$ballNumber.png'),
         ),
